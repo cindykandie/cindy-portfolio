@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: cursive, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+    background-color: rgba(155, 80, 51, 0.795);
+    height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.container{
+    margin-top: 1%;
+    border: 2px solid rgb(184, 10, 140);
+    width: 80%;
+    text-align: center;
+    background-color: rgb(211, 219, 212);
+
+}
+.row1, .row2, .row3{
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: rgb(252, 249, 249);
+    background-image:linear-gradient(to right,black,10%,
+    rgb(51, 131, 58) 90%);
+
+}
+.row3{
+    background-image:linear-gradient(to right,black,10%,
+    rgb(61, 16, 224) 90%); 
+    background-origin:center;
+    border: 1px solid black;
+ 
+}
+.row1 div{
+    border: 1px solid black;
+    height: 400px;
+    text-emphasis: center;
+    flex: 1;
+    justify-content: space-between;
+    
+
+}
+h2{
+    font-size: 200%;
+    padding: 10px;
+}
+button{
+    border-radius: 10px;
+    padding:  10px 20px;
+    margin: 5px 20px;
+    border: 1px solid black;
+}
+
+.btnblue{
+    background-color: blue;
+    color: whitesmoke;
+   
+
+}
+.btnred{
+    background-color: red;
+    color: black;
+   
+
+}
+.btnyellow{
+    background-color: yellow;
+    color: black;
+}
+
+table, th, td{
+    padding: 5px;
+    border: 1px solid black;
+}
+img{
+    width: 100px;
+    height: 150px;
+
+    margin: 10px;
+}
